@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main{
+  margin-top: 30px;
+   display: block;
+   width: 25%;
+}
+
+.img{
+  width: 106%;
+ margin-left: -11px;
+}
+
+.name{
+  text-align: left;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.location{
+  text-align: left;
+  font-weight: 200;
+  color: gray;
+  margin-top: -20px;
+}
+
+.rightpart{
+ float: right;
+ margin-top: 10px;
+}
+
+.leftpart
+{
+  float: left;
+}
+.heart{
+  margin-left: 15px;
+}
+
+.date{
+  margin-top: 0px;
+  margin-right: -10px;
+  font-size: small;
+}
+
+.likes{
+  float: left;
+  font-size: small;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.heading{
+  font-size:xx-large;
+  color: green;
+  margin-left: 300px;
+}
+.camera{
+  margin-right: 100px;
+  margin-top: -40px;
+}
