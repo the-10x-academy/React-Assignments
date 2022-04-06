@@ -1,6 +1,8 @@
-.site-container{
+/* .site-container{
   text-align: center;
-}
+} */
+
+
 html {
   font-size: 14px;
 }
@@ -9,3 +11,48 @@ body {
   color: black;
   margin:0;
 } 
+
+.mainHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-bottom: 2px solid #666666;
+}
+
+.container {
+  margin: 10px auto;
+  width: fit-content;
+  border: 1px solid #666666;
+  border-radius: 8px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.likeShare {
+  margin-right: 10px;
+}
+
+.info {
+  padding: 0px 10px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.postDescripton {
+  margin-top: 0px;
+}
