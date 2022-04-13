@@ -7,7 +7,46 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.container {
+  width: 250px;
+  overflow-wrap: break-word;
+  border: 3px solid #187039;
+  padding: 10px 0px;
+  margin-left: 5px;
+  margin-top: 5px;
+  
+}
+
+.employeeImg{
+  width: calc(100% - 50px);
+  margin-left: 25px;
+  margin-top: 5px;
+  border-radius: 10px;
+ 
+  
+
+
+}
+.employeeNmae {
+  margin-left: 25px;
+  font-size: 24px;
+  color: #54a5FB;
+  font-weight: 700;
+}
+.employeeName{
+  
+  
+  
+  margin-left: 25px;
+}
+
+.employeeDetailWrapper{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.employeeDetailLbl{
+  color: #bbb;
+  font-size: 12px;
 }
