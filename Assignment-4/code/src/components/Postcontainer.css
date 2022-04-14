@@ -1,0 +1,15 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 10px;
+    width: 45%;
+    height: 40rem;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.postimages {
+    width: 673px;
+    height: 390px;
+}
