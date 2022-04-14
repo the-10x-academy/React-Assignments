@@ -1,0 +1,87 @@
+
+.Header{
+    background-color: aliceblue;
+    height: 90px;
+    text-align: center;
+}
+.name{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px
+}
+.id{
+    font-size: 20px;
+}
+.btn{
+    float: right;
+    margin-top: -30px;
+    margin-right: 30px;
+}
+.button{
+    width: 60px;
+    height: 30px;
+}
+.CustomerInfo{
+    height: 170px;
+    width: 100%;
+    background-color: #f4f8f7;
+    margin-top: 30px;
+}
+.text{
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.OrderInfo{
+    margin-top: 30px;
+    height: 80px;
+    width: 100%;
+    background-color: #d6d6d6;
+    display: block;
+}
+.status{
+    padding-left: 40px;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.door{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 500px;
+}
+.time{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 400px;
+}
+.ProductList{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: aliceblue;
+    display: flex;
+}
+.img1{
+    display: inline-flex;
+    height: 150px;
+    padding: 22px;
+    padding-left: 105px;
+}
+button {
+    height: 31px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.product_name{
+    display: block;
+}
+.product_description{
+    display: block;
+    color: #898989;
+}
