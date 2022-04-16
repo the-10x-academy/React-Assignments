@@ -14,7 +14,25 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+
+    const newDiv = (
+      <>
+        <div className="yellow-container">
+          <div className="yellow-child"></div>
+          <div className="yellow-child"></div>
+        </div>
+        <div className="red-container">
+          <div className="red-child"></div>
+        </div>
+        <div className="blue-container">
+          <div className="blue-child"></div>
+          <div className="blue-child-hidden"></div>
+          <div className="blue-child"></div>
+        </div>
+      </>
+
+    );
+      ReactDOM.render(newDiv, document.getElementById('root'));
 
 </script>
 <!--
