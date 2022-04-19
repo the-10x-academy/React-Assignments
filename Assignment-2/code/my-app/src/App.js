@@ -1,18 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 
-
-function App(props) {
- const {employee}=props;
-    
-return(
-  <div className="container">
-  {/* Start your React code here */}
-</div>
-)
+function App({ employee }) {
+  return (
+    <div className="container">
+      <img className="employeeImg" src={employee.profileImg} alt="employee" />
+      <div className="employeeNmae">{employee.name}</div>
+      <EmployeeDetails detailName={"Location"}detail={employee.location}/>
+      <EmployeeDetails detailName={"Blood Group"}detail={employee.bloodGroup}/>
+      <EmployeeDetails detailName={"Age"}detail={employee.age}/>
+      
+      </div>
+);
 }
 
+function EmployeeDetails({detailName, detail}){
+  return (
+    <div className="employeeDetailWrapper">
+      <div className="employeeDetailLbl">{detailName}</div>
+      <div className="employeeDetail">{detail}</div>
+    </div>
+  );
+}
 
 
 export default App;
