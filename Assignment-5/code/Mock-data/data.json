@@ -1,0 +1,28 @@
+{
+    "user": [
+        {
+            "name": "Pany",
+            "location": "Bengaluru",
+            "likes": 6454,
+            "description": "Do Good things to others Even if Noone is Watching.",
+            "PostImage": "dog.jpg.jpg",
+            "date": "15-04-2059"
+        },
+        {
+            "name": "Omkar",
+            "location": "Planet Earth",
+            "likes": 33256733,
+            "description": "Mountains .",
+            "PostImage": "mountain.jpg",
+            "date": "15-04-2059"
+        },
+        {
+            "name": "Yogesh",
+            "location": "Himachal Pradesh",
+            "likes": 99,
+            "description": "Eat Sleep Repeat",
+            "PostImage": "gym.jpg",
+            "date": "15-04-2078"
+        }
+    ]
+}

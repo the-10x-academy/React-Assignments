@@ -1,0 +1,36 @@
+.Homepage {
+    display: flex;
+    height: 100vh;
+    margin: 0px 10px;
+}
+.Homepage>* {
+    width: 50%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: red;
+}
+button.btn {
+    width: 116px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+}
+button.btn:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
