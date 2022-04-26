@@ -1,0 +1,28 @@
+{
+    "user": [
+        {
+            "name": "Kaustubh",
+            "location": "Bengaluru",
+            "likes": 6454,
+            "description": "I am thankful for the times i had to be strong because they taught me how to survive.",
+            "PostImage": "lion.jpeg",
+            "date": "15-04-2059"
+        },
+        {
+            "name": "LALATENDU",
+            "location": "Planet Earth",
+            "likes": 3333333,
+            "description": "Taking a walk with my dog.",
+            "PostImage": "johnwick.png",
+            "date": "15-04-2059"
+        },
+        {
+            "name": "YOGESH",
+            "location": "Himachal Pradesh",
+            "likes": 99999,
+            "description": "Eat Sleep Repeat",
+            "PostImage": "food.png",
+            "date": "15-04-2078"
+        }
+    ]
+}
