@@ -1,0 +1,13 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    height: 40rem;
+}
+.postimages {
+    width: 673px;
+    height: 390px;
+}
