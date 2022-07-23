@@ -7,7 +7,7 @@
 #root {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -18,14 +18,14 @@
 @media screen and (min-width: 0px) and (max-width: 320px) {
     .yellow-container {
         width: 80%;
-        height: 25%;
+        height: 20%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
 
-    .red-container {
+    .pink-container {
         width: 80%;
         height: 45%;
         display: flex;
@@ -49,10 +49,10 @@
         background-color: yellow;
     }
 
-    .red-child {
+    .pink-child {
         width: 100%;
         height: 95%;
-        background-color: red;
+        background-color: rgb(240, 44, 142);
     }
 
     .blue-child {
@@ -79,7 +79,7 @@
         align-items: center;
     }
 
-    .red-container {
+    .pink-container {
         width: 80%;
         height: 45%;
         display: flex;
@@ -103,10 +103,10 @@
         background-color: yellow;
     }
 
-    .red-child {
+    .pink-child {
         width: 100%;
         height: 95%;
-        background-color: red;
+        background-color: rgb(240, 26, 122);
     }
 
     .blue-child {
@@ -133,7 +133,7 @@
         align-items: center;
     }
 
-    .red-container {
+    .pink-container {
         width: 80%;
         height: 45%;
         display: flex;
@@ -157,10 +157,10 @@
         background-color: yellow;
     }
 
-    .red-child {
+    .pink-child {
         width: 100%;
         height: 95%;
-        background-color: red;
+        background-color: rgb(248, 52, 117);
     }
 
     .blue-child {
