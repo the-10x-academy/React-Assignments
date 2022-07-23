@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.site-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.child {
+    box-shadow: 2px 2px 2px 2px rgb(71, 71, 71);
+    border-radius: 5px;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+#customer-row button {
+    height: 30%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+#customer-row {
+    width: 95%;
+    height: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#customer-info {
+    width: 90%;
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#order-info {
+    width: 90%;
+    height: 20%;
+    background-color: whitesmoke;
+}
+
+table {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+th,
+td {
+    width: 33%;
+    margin: 1%;
+}
+
+#bullet {
+    font-size:5px;
+    position:relative;
+    top:-5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#status {
+    padding: 0;
+    margin: 0;
+}
+
+#product-list {
+    width: 90%;
+    height: 25%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+#product-list p {
+    color: rgb(110, 107, 107);
+}
+
+span,
+img,
+input,
+h3,
+p {
+    padding: 5px;
+}
+
+#product-list button {
+    width: 90px;
+    height: 50px;
+    border: 2px solid rgb(189, 125, 28);
+    color: white;
+    background-color: white;
+}
+
+.arrow {
+    font-size: 50px;
+    color: rgb(82, 82, 82)
+}
