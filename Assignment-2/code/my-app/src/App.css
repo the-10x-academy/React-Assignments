@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 30vw;
+  width: 25vw;
   display: flex;
   flex-direction: column;  
   justify-content: flex-start;
@@ -14,7 +14,7 @@
 }
 
 .box{
-  margin:20px 30px;
+  margin:10px 30px;
 }
 .image {
   width: 100%;
